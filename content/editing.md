@@ -49,7 +49,7 @@ I recommend using [Obsidian](http://obsidian.md/) as a way to edit and grow your
 
 This step is **highly recommended**.
 
-> 🔗 Step 3: [How to setup your Obsidian Vault to work with Quartz](obsidian.md)
+> 🔗 Step 3: [How to setup your Obsidian Vault to work with Quartz](obsidian-vault.md)
 
 ## Previewing Changes
 This step is purely optional and mostly for those who want to see the published version of their digital garden locally before opening it up to the internet. This is *highly recommended* but not required.

@@ -31,3 +31,5 @@ Great! Now you have everything you need to start editing and growing your digita
 > ✏️ Step 2: [Editing Notes in Quartz](editing.md)
 
 Having problems? Checkout our [FAQ and Troubleshooting guide](troubleshooting.md).
+
+[config](config.md)
