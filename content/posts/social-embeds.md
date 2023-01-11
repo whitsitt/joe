@@ -5,7 +5,9 @@ image: "images/prateek-katyal-xv7-GlvBLFw-unsplash.jpg"
 featured_image: true
 title: A case against social media timeline widgets
 category: web development
-tags: social, web
+tags:
+  - social
+  - web
 comments: false
 redirect_from:
   - /blog/social-embeds

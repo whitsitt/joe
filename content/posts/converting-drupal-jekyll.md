@@ -4,7 +4,13 @@ author: Joe Whitsitt
 image: "images/pfalcons.png"
 title: Converting a website from Drupal to Jekyll
 category: web development
-tags: drupal, jekyll, gh-pages, github, cloudflare, dropbox
+tags: 
+  - drupal
+  - jekyll
+  - gh-pages
+  - github
+  - cloudflare
+  - dropbox
 comments: false
 redirect_from:
   - /2017/02/01/converting-drupal-jekyll

@@ -5,7 +5,11 @@ image: "images/sarah-dorweiler-9Z1KRIfpBTM-unsplash.jpg"
 featured_image: true
 title: "We have a budget"
 category: personal
-tags: money, life, budget, finance
+tags: 
+  - money
+  - life
+  - budget
+  - finance
 comments: false
 redirect_from:
   - /2017/07/01/budget

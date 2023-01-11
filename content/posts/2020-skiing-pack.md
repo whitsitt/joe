@@ -6,7 +6,12 @@ alt: "View of \"Thaynes Caynon\" run from \"Quicksilver Gondola\" at Park City, 
 featured_image: true
 title: "2020 Ski Trip Pack List"
 category: personal
-tags: gear, packing, travel, air-travel, skiing
+tags: 
+  - gear
+  - packing
+  - travel
+  - air-travel
+  - skiing
 comments: false
 redirect_from:
   - /blog/2020-skiing-pack

@@ -5,7 +5,8 @@ author: Joe Whitsitt
 image: "images/adrien-olichon--aOsCcTJXWY-unsplash.jpg"
 featured_image: true
 category: website, web development
-tags: jekyll
+tags: 
+  - jekyll
 redirect_from:
   - /2016/01/24/hello-world/
   - /blog/hello-world

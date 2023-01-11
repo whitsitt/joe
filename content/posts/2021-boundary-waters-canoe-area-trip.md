@@ -6,7 +6,13 @@ featured_image: true
 title: 2021 Boundary Waters Canoe Area Trip
 author: Joe Whitsitt
 category: personal
-tags: packing, gear, hiking, canoeing, camping, bwca
+tags: 
+  - packing
+  - gear
+  - hiking
+  - canoeing
+  - camping
+  - bwca
 redirect_from:
   - /blog/2021-boundary-waters-canoe-area-trip
 ---
@@ -32,7 +38,7 @@ The weather forecast was above normal temps with the chance of rain. For the mos
 
 ### Worn
 
-< fig src="images/pxl_20210609_001001886.jpeg" caption="Worn gear for hiking in to first camp." alt="Worn gear for hiking in to first camp" >
+{{< fig src="images/pxl_20210609_001001886.jpeg" caption="Worn gear for hiking in to first camp." alt="Worn gear for hiking in to first camp" >}}
 
 ### Food
 

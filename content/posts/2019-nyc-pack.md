@@ -55,7 +55,7 @@ All in all, with travel to/from, we spent 5 nights, went carry-on only and had a
 
 Deodorant, belt, hanky, phone, hat, plastic grocery bags (2), bag of mixed nuts.
 
-< fig src="images/IMG_20190827_220602.jpg" caption="Packed view of backpack" alt="Packed backpack for NYC trip" >
+{{< fig src="images/IMG_20190827_220602.jpg" caption="Packed view of backpack" alt="Packed backpack for NYC trip" >}}
 
 **Wearing on the plane**:
 

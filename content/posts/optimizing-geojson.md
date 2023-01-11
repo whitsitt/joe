@@ -5,7 +5,9 @@ image: "images/elcarito-CRn-_80z4SE-unsplash.jpg"
 featured_image: true
 title: Optimizing GeoJSON
 category: web development
-tags: mapping, geojson
+tags:
+  - mapping
+  - geojson
 comments: false
 redirect_from:
   - /2018/06/22/optimizing-geojson/

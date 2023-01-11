@@ -5,7 +5,10 @@ image: "images/annie-spratt-m1t-RJ1iCIU-unsplash.jpg"
 featured_image: true
 title: "So I Became a Vegetarian"
 category: personal
-tags: food, life, vegetarian
+tags:
+  - food
+  - life
+  - vegetarian
 comments: false
 redirect_from:
   - /blog/vegetarianism

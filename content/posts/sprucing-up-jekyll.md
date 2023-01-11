@@ -6,7 +6,9 @@ image: "images/igor-son-FV_PxCqgtwc-unsplash.jpg"
 featured_image: true
 comments: false
 category: website, web development
-tags: jekyll, github
+tags:
+  - jekyll
+  - github
 redirect_from:
   - /2016/10/17/sprucing-up-jekyll/
   - /blog/sprucing-up-jekyll

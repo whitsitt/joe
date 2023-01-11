@@ -5,12 +5,17 @@ alt: "My RAGBRAI packlist laid out for display"
 title: RAGBRAI XLVIII Recap
 author: Joe Whitsitt
 category: personal
-tags: ragbrai, packing, gear, cycling, camping
+tags: 
+  - ragbrai
+  - packing
+  - gear
+  - cycling
+  - camping
 redirect_from:
   - /blog/ragbrai-xlviii-recap
 ---
 
-< fig src="images/pxl_20210727_174939767.jpeg" caption="Knolling my RAGBRAI packlist" alt="My RAGBRAI packlist laid out for display" >
+{{< fig src="images/pxl_20210727_174939767.jpeg" caption="Knolling my RAGBRAI packlist" alt="My RAGBRAI packlist laid out for display" >}}
 
 I just got back from another year of RAGBRAI. Wasn't sure if it would actually happen because of the new wave of COVID-19 cases. It was cancelled last year. I only did three and a half days of riding from Parkersburg to Clinton.
 

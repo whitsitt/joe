@@ -5,7 +5,10 @@ author: Joe Whitsitt
 image: "images/art-artistic-background-459301.jpg"
 featured_image: true
 category: website, web development
-tags: gatsby, netlify, forestry
+tags: 
+  - gatsby
+  - netlify
+  - forestry
 redirect_from:
   - /blog/hello-gatsby
 ---
