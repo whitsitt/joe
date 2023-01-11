@@ -9,11 +9,17 @@
     {{partial "header.html" .}}
     <article>
       {{ if and ( .Params.image ) ( .Params.featured_image ) }}
+        {{ $path := .Params.image }}
+        {{ $i := resources.Get $path -}}
+        {{ $alt := "" }}
+        {{ if .Params.alt }}
+          {{ $alt = .Params.alt }}
+        {{ end }}
       {{end}}
       {{if .Title}}<h1>{{ .Title }}</h1>{{end}}
       <p class="meta">
-        {{ .Params.image }}
-        {{ .Params.featured_image }}
+        {{ $path }}
+        {{ $i }}
         {{ i18n "last_updated" }} {{ partial "date-fmt.html" .}} 
           {{ partial "github.html" . }}
       </p>
