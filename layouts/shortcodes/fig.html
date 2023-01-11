@@ -3,8 +3,8 @@
   Forgot why we use a wildcard here, maybe for case sensitivity. Doc:
   https://gohugo.io/content-management/page-resources/
   */}}
-  {{ $src := resources.GetMatch (printf "*%s*" (.Get "src")) }}
-  <!-- Alternative non-wildcard version: {{ $src := resources.GetMatch (.Get "src") }} -->
+  {{ $src := resources.GetMatch (.Get "src") }}
+  <!-- Alternative wildcard version: {{ $src := resources.GetMatch (printf "*%s*" (.Get "src")) }} -->
 
   {{/*
   Set responsive image sizes, these are hardcoded throughout this
