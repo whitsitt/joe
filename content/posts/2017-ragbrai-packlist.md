@@ -12,7 +12,7 @@ redirect_from:
   - /blog/2017-ragbrai-packlist
 ---
 
-{{< fig src="images/IMG_0789-rotate.jpeg" caption="Knolling my RAGBRAI packlist" alt="My RAGBRAI packlist laid out for display" >}}
+< fig src="images/IMG_0789-rotate.jpeg" caption="Knolling my RAGBRAI packlist" alt="My RAGBRAI packlist laid out for display" >
 
 I have been on RAGBRAI (Des Moines Register's Annual Great Bike Ride Across Iowa) several times since 2005. Over the years, I'd like to think I have figured out a pretty good list of gear. In general, this list is usually what I start with when planning a bicycle touring trip, not just for RAGBRAI.
 
