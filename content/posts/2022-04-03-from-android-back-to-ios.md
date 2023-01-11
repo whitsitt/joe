@@ -10,7 +10,7 @@ tags:
   - iphone
   - android
 description: I am one of the ten people* that bought the iPhone SE
-image: /images/img_0145.jpeg
+image: images/img_0145.jpeg
 alt: iphone se 2022 product red
 featured_image: true
 comments: false

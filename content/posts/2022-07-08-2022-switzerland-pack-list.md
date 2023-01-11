@@ -12,7 +12,7 @@ tags:
   - air-travel
   - cycling
 description: A brief overview of my trip to Switzerland and the things I packed.
-image: /images/20220527_133318.jpeg
+image: images/20220527_133318.jpeg
 alt: Biking into the Swiss Alps
 featured_image: true
 comments: false

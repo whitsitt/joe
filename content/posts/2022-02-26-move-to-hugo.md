@@ -18,7 +18,7 @@ tags:
   - npm
   - node
 description: Thoughts and notes about moving to Hugo from GatsbyJS
-image: /images/francesco-mazzoli-0xh3QPqcfKM-unsplash.jpg
+image: images/francesco-mazzoli-0xh3QPqcfKM-unsplash.jpg
 featured_image: true
 ---
 With this post, I can say that I have successfully completed moving my website from [GatsbyJS](https://www.gatsbyjs.com/) to [Hugo](https://gohugo.io/) and in the process did some neat things with it.
