@@ -1,7 +1,8 @@
 .DS_Store
 public
-resources
+/resources/_gen/assets
 .idea
+.vscode
 content/.obsidian
 assets/indices/linkIndex.json
 assets/indices/contentIndex.json
