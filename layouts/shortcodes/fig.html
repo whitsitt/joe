@@ -20,11 +20,9 @@
   
   See also: https://gohugo.io/content-management/image-processing/
   */}}
-  {{ $tinyw := default "360x q50 Box" }}
   {{ $smallw := default "720x q50 Box" }}
   {{ $largew := default "1440x q50 Box" }}
   
-  {{ $tinywwebp := default "360x webp q50 Box" }}
   {{ $smallwwebp := default "720x webp q50 Box" }}
   {{ $largewwebp := default "1440x webp q50 Box" }}
   
@@ -35,11 +33,9 @@
   Doc:
   https://code.luasoftware.com/tutorials/hugo/hugo-scope-variable-in-template/ 
   */}}
-  {{ $.Scratch.Set "tiny" false }}{{ if gt $src.Width "360" }}{{ $.Scratch.Set "tiny" ($src.Resize $tinyw) }}{{ end }}
   {{ $.Scratch.Set "small" false }}{{ if gt $src.Width "720" }}{{ $.Scratch.Set "small" ($src.Resize $smallw) }}{{ end }}
   {{ $.Scratch.Set "large" false }}{{ if gt $src.Width "1440" }}{{ $.Scratch.Set "large" ($src.Resize $largew) }}{{ end }}
   
-  {{ $.Scratch.Set "tinywebp" false }}{{ if ge $src.Width "360" }}{{ $.Scratch.Set "tinywebp" ($src.Resize $tinywwebp) }}{{ end }}
   {{ $.Scratch.Set "smallwebp" false }}{{ if ge $src.Width "720" }}{{ $.Scratch.Set "smallwebp" ($src.Resize $smallwwebp) }}{{ end }}
   {{ $.Scratch.Set "largewebp" false }}{{ if ge $src.Width "1440" }}{{ $.Scratch.Set "largewebp" ($src.Resize $largewwebp) }}{{ end }}
   
@@ -68,16 +64,14 @@
           <source type="image/webp"
             sizes={{ with .Get "sizes" }}'{{.}}'{{ else }}"(min-width: 720px) 720px, 100vw"{{ end }}
             srcset='
-      {{ if ($.Scratch.Get "tinywebp") }}      {{($.Scratch.Get "tinywebp").RelPermalink}} 360w,
-      {{ end }}{{ if ($.Scratch.Get "smallwebp") }}      {{($.Scratch.Get "smallwebp").RelPermalink}} 720w,
+      {{ if ($.Scratch.Get "smallwebp") }}      {{($.Scratch.Get "smallwebp").RelPermalink}} 720w,
       {{ end }}{{ if ($.Scratch.Get "largewebp") }}      {{($.Scratch.Get "largewebp").RelPermalink}} 1440w{{ end }}'
           />
           <img
             loading="lazy"
             sizes={{ with .Get "sizes" }}'{{.}}'{{ else }}"(min-width: 720px) 720px, 100vw"{{ end }}
             srcset='
-      {{ if ($.Scratch.Get "tiny") }}      {{($.Scratch.Get "tiny").RelPermalink}} 360w,
-      {{ end }}{{ if ($.Scratch.Get "small") }}      {{($.Scratch.Get "small").RelPermalink}} 720w,
+      {{ if ($.Scratch.Get "small") }}      {{($.Scratch.Get "small").RelPermalink}} 720w,
       {{ end }}{{ if ($.Scratch.Get "large") }}      {{($.Scratch.Get "large").RelPermalink}} 1440w,
       {{ end }}{{ with $src }}      {{.RelPermalink}} {{.Width}}w{{ end }}'
             {{ if ($.Scratch.Get "small") }}src="{{ ($.Scratch.Get "small").RelPermalink }}" width="{{ ($.Scratch.Get "small").Width }}" height="{{ ($.Scratch.Get "small").Height }}"
