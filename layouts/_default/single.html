@@ -9,6 +9,10 @@
     {{partial "header.html" .}}
     <article>
       {{if .Title}}<h1>{{ .Title }}</h1>{{end}}
+      <p class="meta">
+        {{ i18n "last_updated" }} {{ partial "date-fmt.html" .}} 
+          {{ partial "github.html" . }}
+      </p>
       {{ if and ( .Params.image ) ( .Params.featured_image ) }}
         {{ $path := .Params.image }}
         {{ $i := resources.Get $path -}}
@@ -30,10 +34,6 @@
           <img class="object-cover w-full rounded" src="{{ $i_sm.RelPermalink }}" alt="{{ $alt }}" role="presentation" width="{{ $i_sm.Width }}" height="{{ $i_sm.Height }}">
         </picture>
       {{end}}
-      <p class="meta">
-        {{ i18n "last_updated" }} {{ partial "date-fmt.html" .}} 
-          {{ partial "github.html" . }}
-      </p>
       <ul class="tags">
           {{ range (.GetTerms "tags") }}
           <li><a href="{{ .Permalink }}">
