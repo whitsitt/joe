@@ -32,11 +32,11 @@ The weather forecast was above normal temps with the chance of rain. For the mos
 
 ### Worn
 
-{{< fig src="images/pxl_20210609_001001886.jpeg" caption="Worn gear for hiking in to first camp." alt="Worn gear for hiking in to first camp" >}}
+< fig src="images/pxl_20210609_001001886.jpeg" caption="Worn gear for hiking in to first camp." alt="Worn gear for hiking in to first camp" >
 
 ### Food
 
-{{< fig src="images/pxl_20210606_025008588.jpeg" caption="My food for the entire BWCA trip." alt="My food for the entire BWCA trip" >}}
+< fig src="images/pxl_20210606_025008588.jpeg" caption="My food for the entire BWCA trip." alt="My food for the entire BWCA trip" >
 
 ## Not Pictured
 
