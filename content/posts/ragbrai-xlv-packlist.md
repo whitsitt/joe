@@ -18,7 +18,7 @@ redirect_from:
 
 {{< fig src="images/IMG_0789-rotate.jpeg" caption="Knolling my RAGBRAI packlist" alt="My RAGBRAI packlist laid out for display" >}}
 
-Here is a follow-up to my previous post. Based on this year, I made some last minute decisions on what to pack. Here are some factors that changed what ended up on the ride:
+Here is a follow-up to my previous post, [2017-ragbrai-packlist](2017-ragbrai-packlist.md). Based on this year, I made some last minute decisions on what to pack. Here are some factors that changed what ended up on the ride:
 
 * Supported by my team bus.
 * Riding/camping with my wife.
