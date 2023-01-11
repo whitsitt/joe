@@ -1,5 +1,13 @@
 // Add your own CSS here!
-
+picture.featured-image {
+  height: 16%;
+  max-height: 60vh;
+  width: 100%;
+}
+picture.featured-image img {
+  object-fit: cover;
+  width: 100%;
+}
 :root {
   --light: #faf8f8;
   --dark: #141021;
