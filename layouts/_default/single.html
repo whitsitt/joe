@@ -15,11 +15,11 @@
         {{ if .Params.alt }}
           {{ $alt = .Params.alt }}
         {{ end }}
-
-        {{ $i }}
       {{end}}
       {{if .Title}}<h1>{{ .Title }}</h1>{{end}}
       <p class="meta">
+        {{ $path }}
+        {{ $i }}
         {{ i18n "last_updated" }} {{ partial "date-fmt.html" .}} 
           {{ partial "github.html" . }}
       </p>
