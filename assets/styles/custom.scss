@@ -2,6 +2,18 @@
 .singlePage {
   padding: 4em 23vw;
 }
+.section-li {
+  & > .section {
+    display: block;
+  }
+}
+article {
+  & a {
+    &.internal-link {
+      background-color: transparent;
+    }
+  }
+}
 picture.featured-image {
   height: 16%;
   max-height: 60vh;
@@ -11,6 +23,7 @@ picture.featured-image img {
   object-fit: cover;
   width: 100%;
 }
+figure {margin: 0;}
 :root {
   --light: #faf8f8;
   --dark: #141021;
