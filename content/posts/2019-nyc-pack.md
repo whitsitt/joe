@@ -6,7 +6,11 @@ alt: "View of NYC, Empire State building, looking North"
 featured_image: true
 title: "2019 NYC Pack List"
 category: personal
-tags: gear, packing, travel, air-travel
+tags: 
+  - gear
+  - packing
+  - travel
+  - air-travel
 comments: false
 redirect_from:
   - /blog/2019-nyc-pack
@@ -15,7 +19,7 @@ Going into Labor Day weekend, Abby and I traveled to New York City to attend my 
 
 All in all, with travel to/from, we spent 5 nights, went carry-on only and had a wide range of events dictating dress code. Weather sunny in the high 80s. Urban sightseeing, broadway theatre, casual to fancy dining, a formal wedding and Ultimate Frisbee in Central Park.
 
-< fig src="images/IMG_20190827_221839.jpg" caption="Knolling my packed items" alt="My NYC packlist laid out for display" >
+{{< fig src="images/IMG_20190827_221839.jpg" caption="Knolling my packed items" alt="My NYC packlist laid out for display" >}}
 
 * Dress shoes
 * Running shoes
