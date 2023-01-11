@@ -11,7 +11,7 @@ redirect_from:
   - /blog/ragbrai-xlv-packlist
 ---
 
-< fig src="images/IMG_0789-rotate.jpeg" caption="Knolling my RAGBRAI packlist" alt="My RAGBRAI packlist laid out for display" >
+{{< fig src="images/IMG_0789-rotate.jpeg" caption="Knolling my RAGBRAI packlist" alt="My RAGBRAI packlist laid out for display" >}}
 
 Here is a follow-up to my previous post. Based on this year, I made some last minute decisions on what to pack. Here are some factors that changed what ended up on the ride:
 
