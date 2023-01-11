@@ -23,11 +23,12 @@
         {{ $i_lg := $i.Resize "1440x q80" }}
         {{ $i_webp_lg := $i.Resize "1440x webp" }}
 
-        <picture class="flex w-full h-1/6 max-h-[60vh]">
+        <!-- <picture class="flex w-full h-1/6 max-h-[60vh]">
           <source sizes="(min-width: 720px) 720px, 100vw" srcset="{{ $i_webp_sm.RelPermalink }} 360w, {{ $i_webp_md.RelPermalink }} 720w, {{ $i_webp_lg.RelPermalink }} 1440w" type="image/webp">
           <source srcset="{{ $i_sm.RelPermalink }} 360w, {{ $i_md.RelPermalink }} 720w, {{ $i_lg.RelPermalink }} 1440w" type="image/jpeg">
           <img class="object-cover w-full rounded" src="{{ $i_sm.RelPermalink }}" alt="{{ $alt }}" role="presentation" width="{{ $i_sm.Width }}" height="{{ $i_sm.Height }}">
-        </picture>
+        </picture> -->
+        {{ $i }}
       {{end}}
       {{if .Title}}<h1>{{ .Title }}</h1>{{end}}
       <p class="meta">
