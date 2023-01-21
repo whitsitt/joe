@@ -7,3 +7,6 @@ content/.obsidian
 assets/indices/linkIndex.json
 assets/indices/contentIndex.json
 linkmap
+/.hugo_build.lock
+node_modules/
+npm-debug.log

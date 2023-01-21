@@ -25,6 +25,16 @@
   {{- end }}
   {{ end }}
 
+  <!-- Pulled from Pedal -->
+  {{ $styles := resources.Get "tw.css" }}
+  {{ $styles = $styles | resources.PostCSS }}
+  {{ if  hugo.IsProduction  }}
+      {{ $styles = $styles | minify | fingerprint | resources.PostProcess }}
+      {{ else if .Site.IsServer }}
+      {{ $styles = $styles | resources.ExecuteAsTemplate (printf "tailwind.dev.%v.css" now.UnixMilli) .}}
+  {{ end }}
+  <link href="{{ $styles.RelPermalink }}" rel="stylesheet" />
+
   <!-- CSS Stylesheets and Fonts -->
   {{$sass := resources.Match "styles/[!_]*.scss" }}
   {{$css := slice }}
