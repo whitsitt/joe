@@ -1,6 +1,6 @@
 ---
-title: 🪴 (jw) Joe Whitsitt
+title: 🪴 Joe Whitsitt
 enableToc: false
 enableContextualBacklinks: false
-enableMermaid: false
+
 ---

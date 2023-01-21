@@ -3,6 +3,7 @@ title: "Tubing"
 description: "Below is some pretty good pointers if you ever find yourself on a river with a tube and beer in hand."
 aliases: ["tubing"]
 author: "Joe Whitsitt"
+enableToc: true
 ---
 
 Below is some pretty good pointers if you ever find yourself on a river with a tube and beer in hand. Some of this information only pertains to the group I coordinate.

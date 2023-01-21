@@ -1,6 +1,13 @@
 // Add your own CSS here!
+img {
+  width: 100%;
+  height: auto;
+}
 .singlePage {
   padding: 4em 23vw;
+  @media all and (max-width: 1200px) {
+    padding: 25px 5vw;
+  }
 }
 .section-li>.section {
   display: block;

@@ -1,5 +1,5 @@
 name: Joe Whitsitt
-enableToc: true
+enableToc: false
 openToc: false
 enableLinkPreview: true
 enableLatex: true
@@ -7,7 +7,7 @@ enableCodeBlockTitle: true
 enableCodeBlockCopy: true
 enableCallouts: true
 enableSPA: true
-enableFooter: true
+enableFooter: false
 enableContextualBacklinks: true
 enableRecentNotes: true
 enableGitHubEdit: true
@@ -20,9 +20,28 @@ search:
 description:
   Personal website of Joe Whitsitt. Powered by Quartz, Hugo, Obsidian and Github.
 page_title:
-  "🪴 (jw) Joe Whitsitt"
+  "🪴 Joe Whitsitt"
 links:
+  - link_name: Subscribe via RSS
+    link: /index.xml
   - link_name: Twitter
     link: https://twitter.com/joewhitsitt
   - link_name: GitHub
     link: https://github.com/joewhitsitt
+  - link_name: Gitlab
+    link: https://gitlab.com/joewhitsitt
+  - link_name: Drupal
+    link: https://drupal.org/u/joewhitsitt
+  - link_name: Last.fm
+    link: https://www.last.fm/user/joewhitsitt
+favicon: |
+  <link rel="apple-touch-icon" sizes="180x180" href='favicon/apple-touch-icon.png'>
+  <link rel="icon" type="image/png" sizes="32x32" href='favicon/favicon-32x32.png'>
+  <link rel="icon" type="image/png" sizes="16x16" href='favicon/favicon-16x16.png'>
+  <link rel="manifest" href='favicon/site.webmanifest'>
+  <link rel="mask-icon" href='favicon/safari-pinned-tab.svg' color="#18181b">
+  <link rel="shortcut icon" href='favicon/favicon.ico'>
+  <meta name="msapplication-TileColor" content="#18181b">
+  <meta name="msapplication-config" content='favicon/browserconfig.xml'>
+  <meta name="theme-color" content="#18181b"> 
+
