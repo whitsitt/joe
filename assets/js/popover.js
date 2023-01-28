@@ -8,6 +8,7 @@ function htmlToElement(html) {
 function initPopover(baseURL, useContextualBacklinks) {
   const basePath = baseURL.replace(window.location.origin, "")
   fetchData.then(({ content }) => {
+    console.log(content);
     const links = [...document.getElementsByClassName("internal-link")]
     links
       .filter(li => li.dataset.src || (li.dataset.idx && useContextualBacklinks))
@@ -15,6 +16,7 @@ function initPopover(baseURL, useContextualBacklinks) {
         let el
         if (li.dataset.ctx) {
           const linkDest = content[li.dataset.src]
+          console.log(linkDest);
           const popoverElement = `<div class="popover">
     <h3>${linkDest.title}</h3>
     <p>${highlight(removeMarkdown(linkDest.content), li.dataset.ctx)}...</p>
