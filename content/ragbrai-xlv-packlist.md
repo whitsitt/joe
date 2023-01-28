@@ -11,8 +11,8 @@ tags:
   - camping
   - cycling
   - ragbrai
-  - blog
-redirect_from:
+type: post
+aliases:
   - /2017/07/21/ragbrai-xlv-packlist/
   - /blog/ragbrai-xlv-packlist
   - /posts/ragbrai-xlv-packlist

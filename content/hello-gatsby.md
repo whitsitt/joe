@@ -9,8 +9,8 @@ tags:
   - gatsby
   - netlify
   - forestry
-  - blog
-redirect_from:
+type: post
+aliases:
   - /blog/hello-gatsby
   - /posts/hello-gatsby
 ---

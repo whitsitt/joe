@@ -11,9 +11,9 @@ tags:
   - packing
   - travel
   - air-travel
-  - blog
+type: post
 comments: false
-redirect_from:
+aliases:
   - /blog/2019-nyc-pack
   - /posts/2019-nyc-pack
 ---

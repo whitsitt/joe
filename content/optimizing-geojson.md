@@ -8,9 +8,9 @@ category: web development
 tags:
   - mapping
   - geojson
-  - blog
+type: post
 comments: false
-redirect_from:
+aliases:
   - /2018/06/22/optimizing-geojson/
   - /blog/optimizing-geojson
   - /posts/optimizing-geojson

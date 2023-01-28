@@ -9,13 +9,13 @@ tags:
   - apple
   - iphone
   - android
-  - blog
+type: post
 description: I am one of the ten people* that bought the iPhone SE
 image: images/img_0145.jpeg
 alt: iphone se 2022 product red
 featured_image: true
 comments: false
-redirect_from:
+aliases:
   - /posts/2022-04-03-from-android-back-to-ios/
 ---
 The web has had [some harsh words for this phone](https://www.reddit.com/r/apple/comments/tbv8ft/why_do_people_hate_on_the_new_iphone_se_so_much) before it even shipped. Now [Apple is scaling back production based on weak demand](https://www.macrumors.com/2022/03/28/apple-cutting-iphone-se-production). I had pre-ordered new iPhone SE the morning of March 11th and it was shipped to my home on March 18th.

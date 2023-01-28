@@ -13,8 +13,8 @@ tags:
   - canoeing
   - camping
   - bwca
-  - blog
-redirect_from:
+type: post
+aliases:
   - /blog/2021-boundary-waters-canoe-area-trip
   - /posts/2021-boundary-waters-canoe-area-trip
 ---

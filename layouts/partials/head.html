@@ -8,11 +8,16 @@
     name="description"
     content="{{if .IsHome}}{{$data.description | default $.Site.Data.config.description}}{{else}}{{.Summary}}{{end}}"
   />
+  <meta property="og:title" content="{{site.Title}}{{if not .IsHome}} | {{.Title}}{{end}}" />
   <title>
     {{ if .Title }}{{ .Title }}{{ else }}{{ $data.page_title | default $.Site.Data.config.page_title }}{{
     end }}
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  {{ range .AlternativeOutputFormats -}}
+  {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+  {{ end -}}
 
   <!-- HTML Favicon -->
   {{ $favicon := $data.favicon  | default $.Site.Data.config.favicon | default (slice (dict "rel" "shortcut icon" "type" "image/png" "href" "icon.png")) }}
@@ -215,5 +220,9 @@
     })
   </script>
   {{end}}
+  {{ partial "seo/print.html" . }}
+  {{- partial "analytics" . -}}
+  <!-- <link rel="stylesheet" href='{{ "/css/custom.css" | relURL }}'> -->
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" async></script>
 </head>
 {{ template "_internal/google_analytics.html" . }}

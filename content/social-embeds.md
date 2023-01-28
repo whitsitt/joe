@@ -8,9 +8,9 @@ category: web development
 tags:
   - social
   - web
-  - blog
+type: post
 comments: false
-redirect_from:
+aliases:
   - /blog/social-embeds
   - /posts/social-embeds
 ---

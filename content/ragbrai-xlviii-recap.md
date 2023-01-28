@@ -11,8 +11,8 @@ tags:
   - gear
   - cycling
   - camping
-  - blog
-redirect_from:
+type: post
+aliases:
   - /blog/ragbrai-xlviii-recap
   - /posts/ragbrai-xlviii-recap
 ---

@@ -17,16 +17,16 @@ tags:
   - svg-icons
   - npm
   - node
-  - blog
+type: post
 description: Thoughts and notes about moving to Hugo from GatsbyJS
 image: images/francesco-mazzoli-0xh3QPqcfKM-unsplash.jpg
 featured_image: true
-redirect_from:
+aliases:
   - /posts/2022-02-26-move-to-hugo/
 ---
 With this post, I can say that I have successfully completed moving my website from [GatsbyJS](https://www.gatsbyjs.com/) to [Hugo](https://gohugo.io/) and in the process did some neat things with it.
 
-First off, a quick note about why Gatsby wasn't quite right for this website. [The last move was from Jekyll to Gatsby](hello-gatsby) and a lot of what originally drove that transition was getting away from Ruby and starting to investigate decoupled websites as it related to Drupal which I use for work. Well, though I got away from Ruby when it came to this website, I still maintain other Jekyll sites and old Drupal themes built on top of Ruby, so it is still a part of my life. When it came to investigating decoupled websites, I learned that I shouldn't bring my work home. At least for the short term, that kind of work and investigation has been postponed at work and without the need at home, I wasn't motivated to dive into it on my own time. Gatsby is a very versatile tool, but this website doesn't need all of that.
+First off, a quick note about why Gatsby wasn't quite right for this website. [The last move was from Jekyll to Gatsby](hello-gatsby.md) and a lot of what originally drove that transition was getting away from Ruby and starting to investigate decoupled websites as it related to Drupal which I use for work. Well, though I got away from Ruby when it came to this website, I still maintain other Jekyll sites and old Drupal themes built on top of Ruby, so it is still a part of my life. When it came to investigating decoupled websites, I learned that I shouldn't bring my work home. At least for the short term, that kind of work and investigation has been postponed at work and without the need at home, I wasn't motivated to dive into it on my own time. Gatsby is a very versatile tool, but this website doesn't need all of that.
 
 As for why I chose to move to Hugo, a lot of it is based on Hugo's out-of-the-box nature. I have previous experience getting started with with a Hugo site and the functionality I have come to expect for a blog is already there waiting to be wired up with a couple template snippets. With that said, Hugo only goes so far and I am sure there will be a time when it doesn't go far enough for my liking. Finally, I want to note that the blend of templating, raw HTML/JS and markdown in Hugo is similar to Jekyll and something I prefer over the `dangerouslySetInnerHTML` and GraphQL type stuff of Gatsby.
 

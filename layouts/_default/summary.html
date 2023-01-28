@@ -1,0 +1,43 @@
+<section class="text-gray-600 body-font">
+    <div class="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center">
+      {{ if .Site.Params.post.thumbnail }}
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-full mb-10 md:mb-0">
+        {{ if .Params.image }}
+          {{ $path := .Params.image }}
+          {{ $i := resources.Get $path -}}
+
+          {{ $alt := "" }}
+          {{ if .Params.alt }}
+            {{ $alt = .Params.alt }}
+          {{ end }}
+
+          {{ $i_sm := $i.Resize "360x q80" }}
+          {{ $i_webp_sm := $i.Resize "360x webp" }}
+          {{ $i = $i.Resize "512x" }}
+          {{ $i_webp := $i.Resize "512x webp" }}
+
+          <picture class="flex w-full h-80">
+            <source sizes="(min-width: 720px) 720px, 100vw" srcset="{{ $i_webp_sm.RelPermalink }} 360w, {{ $i_webp.RelPermalink }} 720w" type="image/webp">
+            <source srcset="{{ $i_sm.RelPermalink }} 360w, {{ $i.RelPermalink }} 720w" type="image/jpeg">
+            <img class="object-cover w-full rounded" src="{{ $i_sm.RelPermalink }}" alt="{{ $alt }}" role="presentation" loading="lazy" width="{{ $i_sm.Width }}" height="{{ $i_sm.Height }}">
+          </picture>
+        {{ else }}
+        {{ if .Site.Params.post.noimage }}
+            <img class="object-cover h-68 w-full rounded" role="presentation" id="thumb" src='{{ "https://dummyimage.com/600x400/000/fff.png&text=oops no image found" | relURL }}'>
+        {{ end }}
+        {{ end }}
+        </div>
+      {{ end }}
+      <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start text-left">
+        <h2 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-slate-900 dark:text-white">{{ .Title }}
+        </h2>
+        <span class="mt-1 text-zinc-300 text-sm">
+            <time>
+                {{ .Date.Format "2006/01/02" }}
+            </time>
+        </span>
+        <p class="mb-8 leading-relaxed text-zinc-400 dark:text-zinc-400">{{ substr .Summary 0 200 | plainify | htmlUnescape
+        }}...</p>
+      </div>
+    </div>
+  </section>

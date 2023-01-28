@@ -2,7 +2,8 @@
 
 <hr/>
 
-{{if $.Site.Data.config.enableFooter}}
+{{ if and ($.Site.Data.config.enableFooter) (.IsPage) }}
+{{ if not .IsHome }}
 <div class="page-end" id="footer">
     <div class="backlinks-container">
         {{partial "backlinks.html" .}}
@@ -11,6 +12,7 @@
         {{partial "graph.html" .}}
     </div>
 </div>
+{{end}}
 {{end}}
 
 {{partial "contact.html" .}}

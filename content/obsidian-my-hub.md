@@ -4,7 +4,7 @@ title: "Obsidian - My hub for almost everything"
 author: Joe Whitsitt
 category: personal
 tags: 
-  - blog
+type: post
 image: ""
 alt: ""
 comments: false

@@ -11,13 +11,13 @@ tags:
   - travel
   - air-travel
   - cycling
-  - blog
+type: post
 description: A brief overview of my trip to Switzerland and the things I packed.
 image: images/20220527_133318.jpeg
 alt: Biking into the Swiss Alps
 featured_image: true
 comments: false
-redirect_from:
+aliases:
   - /posts/2022-07-08-2022-switzerland-pack-list/
 ---
 I recently had the fortune of going to Switzerland to visit with my friend in and around Bern. Using my friend's place as a home base, we did several bike loops out of Bern, including a few train assisted sections and an overnight trip. There was also several miles of hiking and one day of kayaking down the river Aare. The weather was near perfect (end of May, beginning of June) and my friend was able to double as my translator and the itinerary was light on the touristy sightseeing. On my way back home through Chicago, my wife and kids picked me up and we spent a night downtown near the loop where we introduced the kids to the city before heading home.

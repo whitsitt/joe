@@ -9,11 +9,11 @@ tags:
   - gear
   - cycling
   - camping
-  - blog
+type: post
 image: "images/IMG_0789-rotate.jpeg"
 alt: "My RAGBRAI packlist laid out for display"
 comments: false
-redirect_from:
+aliases:
   - /ragbrai-packing/
   - /blog/2017-ragbrai-packlist
   - /posts/2017-ragbrai-packlist

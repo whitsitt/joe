@@ -7,8 +7,8 @@ featured_image: true
 category: website, web development
 tags: 
   - jekyll
-  - blog
-redirect_from:
+type: post
+aliases:
   - /2016/01/24/hello-world/
   - /blog/hello-world
   - /posts/hello-world

@@ -9,9 +9,9 @@ tags:
   - food
   - life
   - vegetarian
-  - blog
+type: post
 comments: false
-redirect_from:
+aliases:
   - /blog/vegetarianism
   - /posts/vegetarianism
 ---

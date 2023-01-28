@@ -3,6 +3,7 @@ title: "About"
 description: "About Joe Whitsitt and this website"
 aliases: ["about-me", "about-joe"]
 author: "Joe Whitsitt"
+type: page
 ---
 
 I am a web developer focusing on Drupal with the University of Iowa in Iowa City, IA.

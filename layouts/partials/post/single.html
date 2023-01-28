@@ -1,0 +1,69 @@
+{{ define "header_css" }}{{ end }}
+
+{{ define "main" }}
+<div>
+    <div>
+        <div>
+            <h1 class="title text-4xl">{{.Title}}</h1>
+            <hr>
+            <aside id="meta">
+                <div>
+                    <section>
+                        <h4 id="date"><span class="icon-access_time mr-2"></span>{{ .Date.Format "2006/01/02" }} </h4>
+                    </section>
+                    {{ with .Params.tags }}
+                    <div id="tags">
+                        <span class="icon-local_offer mr-1"></span>
+                        {{ range . }}
+                        <a href="{{ "tags" | absURL }}/{{ . | urlize }}">{{ . }}</a> |
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                </div>
+            </aside>
+            <hr>
+            {{ if .Params.image }}
+            <img class="py-4" src="{{ .Params.image | absURL }}">
+            {{ end }}
+            <div class="content">{{.Content}}</div>
+            <aside id="meta">
+                {{ with .Params.categories }}
+                <hr>
+                <div id="categories">
+                    <span class="icon-folder text-xl mr-1"></span>
+                    {{ range . }}
+                    <span><a
+                            href="{{ "categories" | absURL}}/{{ . | urlize }}">{{ . }}</a></span>
+                    {{ end }}
+                </div>
+                {{ end }}
+            </aside>
+            </div>
+        <div>
+            <div>
+                <div>
+                    {{ with .PrevInSection }}
+                    <a class="previous" href="{{.Permalink}}">
+                        <div>
+                            <span class="icon-keyboard_arrow_left"></span> {{.Title}}
+                        </div>
+                    </a>
+                    {{ end }}
+                </div>
+                {{ with .NextInSection }}
+                <a class="next" href="{{.Permalink}}">
+                    <div>
+                        {{.Title}} <span class="icon-keyboard_arrow_right"></span>
+                    </div>
+                </a>
+                {{ end }}
+            </div>
+        </div>
+        <div>
+            <div>
+                {{ template "_internal/disqus.html" . }}
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}

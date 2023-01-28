@@ -13,6 +13,22 @@
         {{if $.Site.Data.config.enableRecentNotes}}
           {{partial "recent.html" . }}
         {{end}}
+        {{ $paginator := .Paginate (where .Pages "Type" "post") }}
+        <ul class="section-ul">
+          {{ range $paginator.Pages }}
+          <li class="section-li">
+            <div class="section">
+                <p class="meta">
+                    {{partial "date-fmt.html" .}}
+                </p>
+                <div class="desc">
+                  <h3><a href="{{ .Permalink }}" class="internal-link" data-src="{{ .RelPermalink }}">{{- .Title -}}</a></h3>
+                </div>
+            </div>
+          </li>
+          {{ end }}
+        </ul>
+        {{ template "_internal/pagination.html" . }}
     </article>
     {{partial "footerIndex.html" .}}
 </div>

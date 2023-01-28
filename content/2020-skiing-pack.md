@@ -12,9 +12,9 @@ tags:
   - travel
   - air-travel
   - skiing
-  - blog
+type: post
 comments: false
-redirect_from:
+aliases:
   - /blog/2020-skiing-pack
   - /posts/2020-skiing-pack
 ---

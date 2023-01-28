@@ -10,9 +10,9 @@ tags:
   - life
   - budget
   - finance
-  - blog
+type: post
 comments: false
-redirect_from:
+aliases:
   - /2017/07/01/budget
   - /blog/budget
   - /posts/budget

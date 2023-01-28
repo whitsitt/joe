@@ -11,9 +11,9 @@ tags:
   - github
   - cloudflare
   - dropbox
-  - blog
+type: post
 comments: false
-redirect_from:
+aliases:
   - /2017/02/01/converting-drupal-jekyll
   - /blog/converting-drupal-jekyll
   - /posts/converting-drupal-jekyll

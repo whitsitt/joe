@@ -9,8 +9,8 @@ category: website, web development
 tags:
   - jekyll
   - github
-  - blog
-redirect_from:
+type: post
+aliases:
   - /2016/10/17/sprucing-up-jekyll/
   - /blog/sprucing-up-jekyll
   - /posts/sprucing-up-jekyll
