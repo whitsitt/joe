@@ -103,14 +103,15 @@ abbr[title] {
 Remove the default font size and weight for headings.
 */
 
-h2 {
-  font-size: 1.5em;
-  margin-top: 0.5em;
-}
-h3 {
-  font-size: 1.25em;
-  margin-top: 0.5em;
-}
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+} */
 
 /*
 Reset links to optimize for opt-in styling instead of opt-out.

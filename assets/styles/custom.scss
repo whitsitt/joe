@@ -3,6 +3,19 @@ img {
   width: 100%;
   height: auto;
 }
+
+h2, h3, h4, h5, h6, thead {
+  margin: 0;
+}
+h2 {
+  font-size: 1.5em;
+  margin-top: 0.5em;
+}
+h3 {
+  font-size: 1.25em;
+  margin-top: 0.5em;
+}
+
 .singlePage {
   padding: 4em 23vw;
   @media all and (max-width: 1200px) {
