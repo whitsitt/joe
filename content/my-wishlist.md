@@ -8,11 +8,13 @@ enableToc: false
 type: page
 ---
 
-Amazon Wishli
+[Amazon Wishlist](https://www.amazon.com/hz/wishlist/ls/2QQKNU2CKJG3P)
+[REI Wishlist](https://www.rei.com/lists/361891311)
+
 | Item                            | Where                                                                     |
 | ------------------------------- | ------------------------------------------------------------------------- |
 | Mushroom Jerky                  | Various retailers                                                         |
 | Bike Peddler Take A Look Mirror | [REI](https://www.rei.com/product/752285/bike-peddler-take-a-look-mirror) |
-| Good bear                       | John's Grocery                                                            |
+| Good beer                       | John's Grocery                                                            |
 | Spotify Premium                 | Various retailers                                                         |
 |                                 |                                                                           |
