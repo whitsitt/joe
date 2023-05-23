@@ -17,5 +17,4 @@ Just in case you would like to get me something...
 | Mushroom Jerky                      | Various retailers                                                         |                 |              |
 | ~~Bike Peddler Take A Look Mirror~~ | [REI](https://www.rei.com/product/752285/bike-peddler-take-a-look-mirror) | $20             | Thanks Abby! |
 | Spotify Premium                     | Various retailers                                                         |                 |              |
-| Dress shirt alterations             | Local seamstress                                                          | ?               |              |
 |                                     |                                                                           |                 |              |
