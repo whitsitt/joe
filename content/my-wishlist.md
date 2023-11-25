@@ -1,21 +1,26 @@
 ---
 title: My wish list
-date: 2023-02-26
+date: 2023-11-25
 description: In case you want to get me something..
 aliases:
   - wishlist
 author: Joe Whitsitt
 enableToc: false
 type: page
-modified: 2023-11-25
+modified:
 ---
 Just in case you would like to get me something...
 
 # The List
 
 - [Gifster](https://www.giftster.com/gift/public/1zEvs/)
-- Mushroom Jerky
+
+# Always
+
 - Spotify Premium
+- Pancheros/Chipotle
+- Good beer
+- Mushroom Jerky
 
 # No Longer Updated
 
